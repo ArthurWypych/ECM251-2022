@@ -27,3 +27,5 @@ git commit -m "mensagem"
  ```bash
 git status
 ```
+
+weeeee
