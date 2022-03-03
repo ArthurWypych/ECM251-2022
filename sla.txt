@@ -1,0 +1,23 @@
+1-
+S:\Program Files\Java\jdk-17.0.2
+ou
+S:\Program Files\Amazon Corretto\jdk11.0.10_9
+2-
+S:\Program Files\Java\jdk-17.0.2\bin
+3-
+http://www.cs.fsu.edu/~myers/cop3252/howto/cmdline.html
+javac Example1.java
+4-
+java Example1.jar
+5-
+https://pt.stackoverflow.com/questions/339476/o-que-s%C3%A3o-vari%C3%A1veis-de-ambiente#:~:text=Essas%20informa%C3%A7%C3%B5es%20de%20ambiente%20s%C3%A3o,dos%20programas%20que%20o%20consome.
+Quando um programa é executado, ele recebe informações do ambiente em que ele está sendo executado. Essas informações de ambiente são passadas implicitamente via variáveis de ambiente. Esses valores são, por exemplo, o locale do sistema, tipo do terminal, etc.
+
+Elas são valores nomeados dinamicamente no sistema operacional, que afeta o comportamentos dos programas que o consome. Elas são guardadas em uma "lista" de chave-valor.
+6-
+não, apenas administrador / root
+7- 
+var = "hello"
+echo $var
+8- 
+JAVA_HOME é a variavel guardada no PATH, que diz onde fica a versão do java sendo usada
