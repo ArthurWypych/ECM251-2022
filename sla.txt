@@ -14,8 +14,14 @@ https://pt.stackoverflow.com/questions/339476/o-que-s%C3%A3o-vari%C3%A1veis-de-a
 Quando um programa é executado, ele recebe informações do ambiente em que ele está sendo executado. Essas informações de ambiente são passadas implicitamente via variáveis de ambiente. Esses valores são, por exemplo, o locale do sistema, tipo do terminal, etc.
 
 Elas são valores nomeados dinamicamente no sistema operacional, que afeta o comportamentos dos programas que o consome. Elas são guardadas em uma "lista" de chave-valor.
+
+Resposta do prof:
+Variaveis de ambiente servem para que o windows já saiba o caminho de programas e afins
 6-
 não, apenas administrador / root
+
+resprof:
+depende, o usuário normal pode, porém não vao ter muito uso alem de guardar valores simples
 7- 
 var = "hello"
 echo $var
