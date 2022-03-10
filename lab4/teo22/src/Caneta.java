@@ -13,6 +13,7 @@ public class Caneta{
                 carga--;
             }
             else{
+                System.out.println();
                 System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
                 break;
             }
