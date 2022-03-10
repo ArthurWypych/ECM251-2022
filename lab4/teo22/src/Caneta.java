@@ -6,8 +6,18 @@ public class Caneta{
     // porcentagem seu otario
     final int MAX = 100;
 
-    void escrever (String Texto){
-        System.out.println(Texto);
+    void escrever (String texto){
+        for (int i = 0; i < texto.length(); i++){
+            if(carga > 0){
+                System.out.print(texto.charAt(i));
+                carga--;
+            }
+            else{
+                System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+                break;
+            }
+        }
+        System.out.println();
     }
 
     void iniciarCaneta (String modelo, String cor, double ponta){
