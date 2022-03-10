@@ -6,8 +6,12 @@ Repositório da disciplina ECM251
 Em primeiro lugar, configurar quem é o usuário (***nome***) e qual seu ***e-mail***.
 
 ```bash
-git config --global user.name "nomeusuario"
-git config --global user.email email@email.com
+git config --global user.name "ArthurWypych"
+git config --global user.email arthurchuck1@gmail.com
+```
+
+```bash
+git clone https://github.com/ArthurWypych/ECM251-2022.git
 ```
 
 Ordem para criar um novo repositório:
