@@ -26,3 +26,17 @@
 - Quantidade de tempo na plataforma
 - Filtros de pesquisa
 - Chat com outros usuários
+
+## Coisas que a conta deveria fazer, sla
+- Comprar
+- Ter saldo
+- Ter amigos
+- Fazer review
+- Jogar o jogo
+- Logar no app
+- Falar com o suporte
+- Procurar por jogos
+- Jogos na lista de desejos
+- Comprar jogo pra amigos
+- Trocar senha
+- Foto de perfil?
