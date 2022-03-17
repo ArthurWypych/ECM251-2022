@@ -3,7 +3,7 @@ public class Conta {
     String nick;
     String senha;
     double saldo;
-
+    String listaJogos[];
 
     void logar(){
 
@@ -11,16 +11,17 @@ public class Conta {
     void compra(double preco, double saldo){
         
     }
-    void review(){
-        if(temjogo()){
-            System.out.println("review foda");
-        }
-        else{
+    void review(String jooj, String mensagem){
+        if(temjogo(jooj))
+            System.out.println(mensagem);
+        else
             System.out.println("se fode");
-        }
     }
-    void temjogo(){
-        
+    boolean temjogo(String jooj){
+        if(jooj == listaJogos)
+            return true;
+        else
+            return false;
     }
 
 }
