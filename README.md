@@ -1,4 +1,4 @@
-# ECM251-2022
+# ECM251-LP1
 Repositório da disciplina ECM251
 
 # ECM251 - Utilizando Git
