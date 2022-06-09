@@ -4,9 +4,11 @@ public class Sistema{
     private String turno = "regular";
     private ArrayList memlist;
     private void registrarMembros(String nome, String email, String funcao){
-        String nmem[] = {nome,email,funcao};
-        memlist.add(nmem);
-        
+        //String nmem[] = {nome,email,funcao};
+        //membros registrarMembros.nome = new registrarmfuncao 
+
+        memlist.add(new funcao(nome, email));
+
     }
 
     private void mudarTurno(){
@@ -25,6 +27,14 @@ public class Sistema{
     }
 
     public void run(){
+
+        // Membros a1 = new BigBrother("nome","email");
+        // Membros a2 = new BigBrother("nome","email");
+        // Membros a3 = new BigBrother("nome","email");
+        // Membros a4 = new BigBrother("nome","email");
+        // Membros a5 = new BigBrother("nome","email");
+        // Membros a6 = new BigBrother("nome","email");
+
         registrarMembros("foda", "mais foda", "BigBrother");
         registrarMembros("actual_child", "kiddie.com", "ScriptGuys");
         registrarMembros("not_a_gamer", "shitake", "MobileMembers");
