@@ -4,9 +4,9 @@ public class ScriptGuys extends Membros{
         super(username, email);
     }
 
-    Sistema  sys;
+    private Sistema sys = new Sistema();
     @Override
-    public String postarMensagem(String mensagem) {
+    public String postarMensagem() {
         if(sys.getTurno().equals("extra"))
             return "Prazer em ajudar novos amigos de código!";
         else    

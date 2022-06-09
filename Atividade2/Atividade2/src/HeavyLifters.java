@@ -4,12 +4,12 @@ public class HeavyLifters extends Membros{
         super(username, email);
     }
 
-    Sistema  sys;
+    private Sistema sys = new Sistema();
     @Override
-    public String postarMensagem(String mensagem) {
+    public String postarMensagem() {
         if(sys.getTurno().equals("extra"))
-            return "";
+            return "Podem contar conosco!";
         else    
-            return "";
+            return "N00b_qu3_n_Se_r3pita.bat";
     }
 }

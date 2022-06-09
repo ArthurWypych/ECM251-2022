@@ -4,9 +4,9 @@ public class BigBrother extends Membros{
         super(username, email);
     }
     
-    Sistema  sys;
+    private Sistema sys = new Sistema();
     @Override
-    public String postarMensagem(String mensagem) {
+    public String postarMensagem() {
         if(sys.getTurno().equals("extra"))
             return "Sempre ajudando as pessoas membros ou não S2!";
         else    
