@@ -1,2 +1,0 @@
-#aaaaaa
-print("fuck you")
