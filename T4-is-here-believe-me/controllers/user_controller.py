@@ -14,8 +14,10 @@ class UserController():
         cur = con.cursor()
         res = cur.execute("select * from usuarios where nome = \"" + nome + "\"and senha = \"" + senha +"\"")
         if res.fetchone() is not None:
+            con.close()
             return True
         else:
+            con.close()
             return False 
 
     def checkLogin(self, name, password):
